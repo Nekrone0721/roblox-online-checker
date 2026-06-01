@@ -14,7 +14,7 @@ USERS = [
     "0115tim_EMO"
 ]
 
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1509033279800610848/noWPOIKNi-gBWA5gHzeuvaNgZzPAxpb38aWqfPHTTKOdRnWJMLTS39tieJFltfaRqXjN"
+DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1510870986679910410/f10cI7C2ps2K4pkF9cEqDEGcptr1WyZeBnZDUma0fpzyDJiDRbfbFvjwE2D5bBga5n7O"
 
 # ========= 資料庫 =========
 conn = sqlite3.connect("tracker.db", check_same_thread=False)
