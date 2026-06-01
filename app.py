@@ -1,4 +1,5 @@
 from flask import Flask, render_template_string
+import os
 import requests
 import sqlite3
 import time
@@ -209,6 +210,8 @@ def home():
         })
 
     return render_template_string(HTML, users=result)
-
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000))
+    )
